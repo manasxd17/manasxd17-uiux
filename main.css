@@ -1,0 +1,35 @@
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: Brush Script MT, cursive;
+}
+
+h1{
+    text-align: center;
+    font-family: Brush Script MT, cursive;
+    color: rebeccapurple;
+    animation: test;
+    animation-duration: 6s;
+}
+
+@keyframes test{
+    from{
+        color: rebeccapurple;
+        font-family: Brush Script MT, cursive;
+
+    }
+    to{
+        color: tomato;
+        font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    }
+}
+
+h3{
+    color:white;
+    font-family: Brush Script MT, cursive;
+}
+
